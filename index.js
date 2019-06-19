@@ -15,7 +15,7 @@ function myShoppingListHtml(val){
 function crossOutItem(){
     $('.shopping-list').on('click', '.shopping-item-toggle', function(e){
         e.preventDefault();
-        $(e.target).closest('li').find('.shopping-item').toggleClass('shopping-item shopping-item__checked');
+        $(e.target).closest('li').find('.shopping-item').toggleClass('shopping-item__checked');
     })
 }
 
